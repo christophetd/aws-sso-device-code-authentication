@@ -6,7 +6,7 @@ This repository contains Python code to generate an AWS SSO device code URL. Onc
 
 Companion blog post: https://blog.christophetd.fr/phishing-for-aws-credentials-via-aws-sso-device-code-authentication/
 
-*Note: This repository is pretty much useless since you can use the AWS CLI to achieve the same purpose. But it provides an interactive PoC to try it. :-)*
+*Note: This repository is pretty much useless since you can use the AWS CLI to achieve the same purpose. But it provides an interactive PoC to try it, and doesn't mess with your current AWS CLI configuration! :-)*
 
 ## Installation
 
