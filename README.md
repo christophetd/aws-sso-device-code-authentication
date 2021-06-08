@@ -2,6 +2,8 @@
 
 This repository contains Python code to generate an AWS SSO device code URL. Once a user used it to authenticate, it display the list of AWS accounts and roles they have access to, and allow retrieving STS credentials inside them.
 
+![](./screenshot.png)
+
 Companion blog post: https://blog.christophetd.fr/phishing-for-aws-credentials-via-aws-sso-device-code-authentication/
 
 *Note: This repository is pretty much useless since you can use the AWS CLI to achieve the same purpose. But it provides an interactive PoC to try it. :-)*
