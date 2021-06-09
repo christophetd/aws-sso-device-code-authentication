@@ -1,6 +1,6 @@
-# AWS SSO Device code phishing
+# AWS SSO Device code authentication
 
-This repository contains Python code to generate an AWS SSO device code URL. Once a user used it to authenticate, it displays the list of AWS accounts and roles they have access to, and retrieves STS credentials inside them.
+This repository contains Python code to generate an AWS SSO device code URL. Once a user used it to authenticate, it displays the list of AWS accounts and roles they have access to, and retrieves STS credentials inside them. It is a powerful phishing vector to which any identity provider implementing 'device code' authentication is vulnerable to by design (including AWS SSO but also Azure AD, etc.).
 
 ![](./screenshot.png)
 
