@@ -56,7 +56,7 @@ def await_user_prompt_validation(sso_oidc_client, oidc_application, device_code,
 def retrieve_aws_sso_token(args):
     if args.sso_token_file:
         with open(args.sso_token_file) as f:
-            aws_sso_token = f.read()
+            aws_sso_token = f.read().strip()
         print(f"Read AWS SSO token from {args.sso_token_file}")
     else:
         sso_oidc_client = boto3.client('sso-oidc', region_name=args.region)
